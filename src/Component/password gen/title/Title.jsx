@@ -17,7 +17,7 @@ const Title = () => {
         <>
             <div className="flex justify-between">
                 <span className="p-3 text-2xl">{password}</span>
-                <button className="bg-teal-700 text-sm" onClick={() => handleCopy()}>{copied ? 'COPIED' : 'COPY'}</button>
+                <button className="bg-teal-700 text-sm p-4" onClick={() => handleCopy()}>{copied ? 'COPIED' : 'COPY'}</button>
             </div>
 
         </>
