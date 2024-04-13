@@ -12,7 +12,7 @@ const PasswordGenrator = () => {
     const {password , error , setPassword, passwordOption ,setError,Length  } = useContext(PasswordContext);
     return (
         <>
-        <div className="passwordGenBody w-[30rem] h-[25rem]">
+        <div className="passwordGenBody text-[10px] md:text-md md:w-[30rem] h-[25rem]">
             {/* Title  heading*/}
             <Title />
             {/* Charectar Length */}

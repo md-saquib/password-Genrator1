@@ -16,7 +16,7 @@ const Option = ({ val: { val: { title, status }, i } }) => {
     return (
         <>
             <div className="flex py-3">
-                <input className='mr-4 cursor-pointer' type="checkbox" id="option1" onChange={() => updatePassword()} checked={status} />
+                <input className='mx-2 cursor-pointer ' type="checkbox" id="option1" onChange={() => updatePassword()} checked={status} />
                 <label htmlFor="option1" className='cursor-pointer'>{title}</label>
             </div>
         </>
